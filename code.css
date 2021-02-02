@@ -9,8 +9,6 @@ body {
     font-size: 1.5rem;
     margin-bottom: 5rem;
     margin-block-end: -2em;
-    margin-block-start: -2em;
-    border-bottom-style: solid;
 }
 
 .nav-link,
@@ -24,7 +22,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: #5f4b66;
 }
 
 .navbar-collapse {
@@ -34,9 +32,9 @@ body {
 .jumbotron{
     margin: 1em auto;
     text-align: center;
-    background-color: #ee8d53;
-    border-color: black;
-    border-style:solid;
+    background-color: #5f4b66;
+    color: #00;
+
 }
 
 .jumbotron .input-group{
@@ -53,16 +51,15 @@ body {
 }
 .input-group button{
     border:1px solid black;
-    background: #161F6D;
+    background: #a7adc6;
     border-radius: 0;
-    color:#fff;
+    color:#000;
 }
 .input-group button:hover {
     border:1px solid #fff;
-    background:#000;
-    color:#fff;
+    background:#8797af;
+    color:#000;
 }
-
 
 
 .softwares {
@@ -101,7 +98,7 @@ body {
 
 
 .background {
-    background: #ee8d53;
+    background: #5f4b66;
     padding: 4em 0;
 }
 .team {
@@ -115,7 +112,7 @@ body {
 }
 
 .page-footer {
-    background-color: #222;
+    background-color: #000;
     color: #ccc;
     padding: 60px 0 30px;
 }

@@ -6,8 +6,9 @@ body {
 
 .navbar {
     background: #ffffff;
-    font-size: 1.3rem;
-
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    margin-block-end: -2em;
 }
 
 .nav-link,
@@ -21,7 +22,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: #5f4b66;
 }
 
 .navbar-collapse {
@@ -34,7 +35,7 @@ body {
 }
 
 .background {
-    background:rgb(236, 204, 24);
+    background: #5f4b66;
     padding: 4em 0;
 }
 .team {
