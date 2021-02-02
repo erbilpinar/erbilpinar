@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: fff ;
+}
+
+.navbar {
+    background: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    margin-block-end: -2em;
+    margin-block-start: -2em;
+    border-bottom-style: solid;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+.jumbotron{
+    margin: 1em auto;
+    text-align: center;
+    background-color: #ee8d53;
+    border-color: black;
+    border-style:solid;
+}
+
+.jumbotron .input-group{
+    transform: translate(-50%, 60%);
+}
+
+.input-group {
+    left: 50%;
+    position: center;
+    top: 40%;
+    transform: translate(-50%, -55%);
+    width: 30%;
+    text-align: center;
+}
+.input-group button{
+    border:1px solid black;
+    background: #161F6D;
+    border-radius: 0;
+    color:#fff;
+}
+.input-group button:hover {
+    border:1px solid #fff;
+    background:#000;
+    color:#fff;
+}
+
+
+
+.softwares {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.softwares-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.softwares img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.softwares .form-control,
+.softwares input {
+    border-radius: 0;
+}
+.softwares .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.softwares .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+
+.background {
+    background: #ee8d53;
+    padding: 4em 0;
+}
+.team {
+    color: #fff;
+    padding: 0 180px;
+}
+.team .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
