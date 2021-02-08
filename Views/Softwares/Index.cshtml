@@ -1,0 +1,25 @@
+@model IEnumerable<MyWebsite.Models.Software>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/index.css" />
+<h1 style="margin-top: 1em; color: #2c2320;">Membership Managments Softwares</h1>
+<div class="container softwares">
+@foreach (var item in Model) {
+    <div class="col">
+        <img src="https://media.glassdoor.com/sqll/3829383/glue-up-squarelogo-1601954465296.png" width="90" height="90" alt="" loading="lazy">  <a asp-action="Details" asp-route-id="@item.Id" style="color: #2c2320;font-weight: bold; font-size: 1.5em; padding: 1em;" > @Html.DisplayFor(modelItem => item.Name)</a>
+        <div class="row">
+            <div class="column" >
+                <p><b> @Html.DisplayNameFor(model => model.Description) : </b>@Html.DisplayFor(modelItem => item.Description)</p> 
+            </div>
+            <div class="column" style="flex: 50%;">
+                <p><b> @Html.DisplayNameFor(model => model.FreeTrial) : </b>@Html.DisplayFor(modelItem => item.FreeTrial)</p>
+                <p><b> @Html.DisplayNameFor(model => model.StartingPrice) : </b>@Html.DisplayFor(modelItem => item.StartingPrice)</p>
+                <p><b> @Html.DisplayNameFor(model => model.Link) : </b>@Html.DisplayFor(modelItem => item.Link)</p>
+                <a asp-action="Details" asp-route-id="@item.Id" style="color: #2c2320;">Details</a>  <ins>Website</ins>
+            </div>
+        </div>
+    </div>
+}
+

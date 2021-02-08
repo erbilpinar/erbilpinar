@@ -1,0 +1,49 @@
+﻿.navbar {
+  background: #ddd;
+  margin-bottom: 5rem;
+  margin-block-end: -2em;
+}
+.navbar-brand {
+  color: #000000;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+  font-size: 1rem;
+  color: #000000;
+  margin-left: 1em;
+}
+.nav-link:hover {
+  color: #5f4b66;
+}
+.navbar-collapse {
+  justify-content: flex-start;
+}
+.page-footer {
+  background-color: #3a2e3f;
+  color: #ccc;
+}
+#copyright {
+  color: #666;
+  transform: translate(-15%, 0%);
+  height: 4em;
+}
+@media (max-width: 575.98px) {
+  .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+  }
+  .description h1 {
+      font-size: 2em;
+  }
+  .description p {
+      font-size: 1.2rem;
+  }
+  .features {
+      margin: 0;
+  }
+}
